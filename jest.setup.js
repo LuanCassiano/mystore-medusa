@@ -7,7 +7,6 @@ jest.mock('react-native-reanimated', () => {
     __esModule: true,
     default: Animated,
 
-    // Hooks
     useSharedValue: (initial) => ({ value: initial }),
     useAnimatedStyle: (fn) => fn(),
     withTiming: (toValue, config, cb) => {
@@ -15,12 +14,10 @@ jest.mock('react-native-reanimated', () => {
       return toValue;
     },
 
-    // Helpers usados internamente
     Easing: {
       linear: jest.fn(),
     },
 
-    // zero crash
     runOnJS: (fn) => fn,
   };
 });
