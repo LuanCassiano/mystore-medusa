@@ -37,16 +37,4 @@ yarn-error.*
 *.tsbuildinfo
 
 # generated native folders
-android/app/build/
-android/.gradle/
-android/.idea/
-android/local.properties
-android/app/release/
-android/captures/
 
-ios/build/
-ios/DerivedData/
-ios/Pods/
-ios/*.xcodeproj/project.xcworkspace/
-ios/*.xcworkspace/
-ios/Podfile.lock
