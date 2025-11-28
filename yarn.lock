@@ -2326,6 +2326,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-navigation/bottom-tabs@npm:^7.8.7":
+  version: 7.8.7
+  resolution: "@react-navigation/bottom-tabs@npm:7.8.7"
+  dependencies:
+    "@react-navigation/elements": "npm:^2.8.4"
+    color: "npm:^4.2.3"
+    sf-symbols-typescript: "npm:^2.1.0"
+  peerDependencies:
+    "@react-navigation/native": ^7.1.22
+    react: ">= 18.2.0"
+    react-native: "*"
+    react-native-safe-area-context: ">= 4.0.0"
+    react-native-screens: ">= 4.0.0"
+  checksum: 10c0/ed51dc529741777dcd481306cfccfa316c34a6e3d4b5a0b0256d165089ec6de129eac5d5ef691384e39b89acf1d9dc2aeb5b89c861f497fbfc77d5387c075afb
+  languageName: node
+  linkType: hard
+
 "@react-navigation/core@npm:^7.13.2":
   version: 7.13.2
   resolution: "@react-navigation/core@npm:7.13.2"
@@ -2361,6 +2378,26 @@ __metadata:
     "@react-native-masked-view/masked-view":
       optional: true
   checksum: 10c0/95571aff9d6929fb62402e64cb6b3e659e338a1b9bae2e3c00191a94a43be4df8d1a7c907bf37bd1b8496c9d8bf113488a735ee3f3cd490ff2a664a987f2defb
+  languageName: node
+  linkType: hard
+
+"@react-navigation/elements@npm:^2.8.4":
+  version: 2.8.4
+  resolution: "@react-navigation/elements@npm:2.8.4"
+  dependencies:
+    color: "npm:^4.2.3"
+    use-latest-callback: "npm:^0.2.4"
+    use-sync-external-store: "npm:^1.5.0"
+  peerDependencies:
+    "@react-native-masked-view/masked-view": ">= 0.2.0"
+    "@react-navigation/native": ^7.1.22
+    react: ">= 18.2.0"
+    react-native: "*"
+    react-native-safe-area-context: ">= 4.0.0"
+  peerDependenciesMeta:
+    "@react-native-masked-view/masked-view":
+      optional: true
+  checksum: 10c0/6ada8150d27aac531477c2c0157e2f58bfb1f22686bc5f3b25c06cf0fb001f4c6c60dce5d85c782d8bd02a04f1d9eb167e93e757ba429eff22db239fc8fb9135
   languageName: node
   linkType: hard
 
@@ -2611,6 +2648,13 @@ __metadata:
   dependencies:
     undici-types: "npm:~7.16.0"
   checksum: 10c0/d6bca7a78f550fbb376f236f92b405d676003a8a09a1b411f55920ef34286ee3ee51f566203920e835478784df52662b5b2af89159d9d319352e9ea21801c002
+  languageName: node
+  linkType: hard
+
+"@types/react-native-dotenv@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@types/react-native-dotenv@npm:0.2.2"
+  checksum: 10c0/0b24dc29cf119c689c7758e5cec044c7c2c74f046150fb84b515d70ea94301fd2123343f11b7dac01bbadcc730b5405607ac2a96e39cc599e0cf197bcefa8710
   languageName: node
   linkType: hard
 
@@ -7033,7 +7077,9 @@ __metadata:
   resolution: "mystore-app@workspace:."
   dependencies:
     "@babel/core": "npm:^7.28.5"
+    "@expo/vector-icons": "npm:^15.0.3"
     "@react-native-masked-view/masked-view": "npm:0.3.2"
+    "@react-navigation/bottom-tabs": "npm:^7.8.7"
     "@react-navigation/native": "npm:^7.1.21"
     "@react-navigation/stack": "npm:^7.6.7"
     "@tanstack/react-query": "npm:^5.90.11"
@@ -7041,13 +7087,16 @@ __metadata:
     "@types/babel__core": "npm:^7"
     "@types/jest": "npm:^30.0.0"
     "@types/react": "npm:~19.1.0"
+    "@types/react-native-dotenv": "npm:^0.2.2"
     axios: "npm:^1.13.2"
     expo: "npm:~54.0.25"
+    expo-font: "npm:~14.0.9"
     expo-status-bar: "npm:~3.0.8"
     jest: "npm:^30.2.0"
     jest-expo: "npm:^54.0.13"
     react: "npm:19.1.0"
     react-native: "npm:0.81.5"
+    react-native-dotenv: "npm:^3.4.11"
     react-native-gesture-handler: "npm:~2.28.0"
     react-native-reanimated: "npm:^4.1.5"
     react-native-safe-area-context: "npm:~5.6.0"
@@ -7757,6 +7806,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-dotenv@npm:^3.4.11":
+  version: 3.4.11
+  resolution: "react-native-dotenv@npm:3.4.11"
+  dependencies:
+    dotenv: "npm:^16.4.5"
+  peerDependencies:
+    "@babel/runtime": ^7.20.6
+  checksum: 10c0/9ed4a37fb59030706d17a1cc49d05af9d8fc57dcb2ef97e122b844f3ab6f6331ebc089afac559fe5bddf37806aa282b4118005f1b27aae5e37fdc3fc8bd7625c
+  languageName: node
+  linkType: hard
+
 "react-native-gesture-handler@npm:~2.28.0":
   version: 2.28.0
   resolution: "react-native-gesture-handler@npm:2.28.0"
@@ -8278,6 +8338,13 @@ __metadata:
   version: 1.2.0
   resolution: "setprototypeof@npm:1.2.0"
   checksum: 10c0/68733173026766fa0d9ecaeb07f0483f4c2dc70ca376b3b7c40b7cda909f94b0918f6c5ad5ce27a9160bdfb475efaa9d5e705a11d8eaae18f9835d20976028bc
+  languageName: node
+  linkType: hard
+
+"sf-symbols-typescript@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "sf-symbols-typescript@npm:2.1.0"
+  checksum: 10c0/b6e2482c2b3ba785aa00770013e343a2175475b9cb7c8703c30a2ec1da8b41acd982db2d953877afb35af32a3dfba337d0b29e703c399cd2138c3cf68685c9c2
   languageName: node
   linkType: hard
 
