@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Content Component snapshot 1`] = `
+<View
+  contentContainerStyle={false}
+  style={
+    {
+      "padding": 20,
+    }
+  }
+  testID="content-wrapper"
+>
+  <Text>
+    Snapshot
+  </Text>
+</View>
+`;
