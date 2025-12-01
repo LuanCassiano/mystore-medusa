@@ -1,6 +1,5 @@
 # MyStore Medusa
 
-![MyStore Banner](link-para-imagem-ou-screenshot)  
 
 ## 📌 Sobre o Projeto
 
