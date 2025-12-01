@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Section Component snapshot 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 24,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "marginBottom": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#000000",
+          "fontFamily": "bold",
+          "fontSize": 24,
+        }
+      }
+    >
+      Offers
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#202020",
+          "fontFamily": "regular",
+          "fontSize": 16,
+        }
+      }
+    >
+      Hot deals
+    </Text>
+  </View>
+  <Text>
+    Promo items
+  </Text>
+</View>
+`;
