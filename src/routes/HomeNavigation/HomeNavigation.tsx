@@ -2,18 +2,44 @@ import React from 'react';
 
 import HomeScreen from '../../screens/Home/Home';
 import ProductListScreen from '../../screens/ProductList/ProductList';
+import NotificationScreen from '../../screens/Notification/Notification';
 
 import { createStackNavigator } from '@react-navigation/stack';
 
 import { GlobalParamList } from '../types';
 
+import Header from '../../components/Header/Header';
+
 const { Navigator, Screen } = createStackNavigator<GlobalParamList>();
 
 export default function RootNavigator() {
   return (
-    <Navigator>
-      <Screen name="Home" component={HomeScreen} />
-      <Screen name="ProductList" component={ProductListScreen} />
+    <Navigator
+      screenOptions={{
+        header: (props) => <Header {...props} />
+      }}
+    >
+      <Screen
+        name="Home"
+        component={HomeScreen}
+        options={{ 
+          title: 'Discover',
+        }}
+      />
+      <Screen
+        name="ProductList"
+        component={ProductListScreen}
+        options={{ 
+          title: 'Products',
+        }}
+      />
+      <Screen
+        name="Notification"
+        component={NotificationScreen}
+        options={{ 
+          title: 'Notifications',
+        }}
+      />
     </Navigator>
   )
 }
