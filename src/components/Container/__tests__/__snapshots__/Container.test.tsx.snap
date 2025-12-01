@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Container component snapshot 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "off",
+      "right": "off",
+      "top": "off",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+  testID="container-component"
+>
+  <Text>
+    Snapshot
+  </Text>
+</RNCSafeAreaView>
+`;

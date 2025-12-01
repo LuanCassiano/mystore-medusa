@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`ProductCard Component matches snapshot 1`] = `
+<View>
+  <View
+    style={
+      {
+        "backgroundColor": "#e3e3e3",
+        "borderRadius": 15,
+        "marginBottom": 10,
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "uri": "https://via.placeholder.com/150",
+        }
+      }
+      style={
+        {
+          "borderRadius": 10,
+          "height": 150,
+          "margin": 5,
+          "width": 150,
+        }
+      }
+      testID="product-image"
+    />
+  </View>
+  <View>
+    <Text
+      style={
+        {
+          "color": "#000000",
+          "fontFamily": "black",
+          "fontSize": 16,
+        }
+      }
+    >
+      Product 1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#202020",
+          "fontFamily": "medium",
+          "fontSize": 12,
+        }
+      }
+    >
+      R$ 
+      123.45
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ProductCard Component snapshot 1`] = `
+<View>
+  <View
+    style={
+      {
+        "backgroundColor": "#e3e3e3",
+        "borderRadius": 15,
+        "marginBottom": 10,
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "uri": "https://via.placeholder.com/150",
+        }
+      }
+      style={
+        {
+          "borderRadius": 10,
+          "height": 150,
+          "margin": 5,
+          "width": 150,
+        }
+      }
+      testID="product-image"
+    />
+  </View>
+  <View>
+    <Text
+      style={
+        {
+          "color": "#000000",
+          "fontFamily": "black",
+          "fontSize": 16,
+        }
+      }
+    >
+      Product 1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#202020",
+          "fontFamily": "medium",
+          "fontSize": 12,
+        }
+      }
+    >
+      R$ 
+      123.45
+    </Text>
+  </View>
+</View>
+`;
