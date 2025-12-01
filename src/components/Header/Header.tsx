@@ -2,7 +2,7 @@ import { Text, TouchableOpacity, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import type { StackHeaderProps } from "@react-navigation/stack";
 
-import { Octicons } from "@expo/vector-icons";
+import { Octicons, SimpleLineIcons } from "@expo/vector-icons";
 
 import { Colors } from "../../global/Colors";
 
@@ -15,7 +15,7 @@ export default function Header({ navigation, route, options, back }: StackHeader
   const canGoBack = !!back;
 
   const rightIconNavigation: Record<string, string | null> = {
-    Home: "Notification",
+    Home: "Bag",
   };
 
   const navigateTo = rightIconNavigation[route.name] || null;
@@ -37,7 +37,7 @@ export default function Header({ navigation, route, options, back }: StackHeader
           onPress={() => navigation.navigate(navigateTo!)}
           testID="right-button"
         >
-          <Octicons name="bell" size={20} color={Colors.BLACK} />
+          <SimpleLineIcons name="handbag" size={20} color={Colors.BLACK} />
         </TouchableOpacity>
       </View>
 

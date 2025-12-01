@@ -34,7 +34,6 @@ describe("Header Component", () => {
   });
 
   it("renders back button when 'back' is true", () => {
-    const props = { ...defaultProps, back: true };
     const { getByTestId } = render(<Header {...(defaultProps as StackHeaderProps)} />);
     const backButton = getByTestId("back-button");
     expect(backButton).toBeTruthy();
@@ -50,6 +49,6 @@ describe("Header Component", () => {
   it("calls navigation.navigate when right button is pressed", () => {
     const { getByTestId } = render(<Header {...(defaultProps as StackHeaderProps)} />);
     fireEvent.press(getByTestId("right-button"));
-    expect(mockNavigate).toHaveBeenCalledWith("Notification");
+    expect(mockNavigate).toHaveBeenCalledWith("Bag");
   });
 });

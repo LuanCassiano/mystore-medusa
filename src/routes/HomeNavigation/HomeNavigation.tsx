@@ -3,6 +3,7 @@ import React from 'react';
 import HomeScreen from '../../screens/Home/Home';
 import ProductListScreen from '../../screens/ProductList/ProductList';
 import NotificationScreen from '../../screens/Notification/Notification';
+import BagScreen from '../../screens/Bag/Bag';
 
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -38,6 +39,13 @@ export default function RootNavigator() {
         component={NotificationScreen}
         options={{ 
           title: 'Notifications',
+        }}
+      />
+      <Screen
+        name="Bag"
+        component={BagScreen}
+        options={{ 
+          title: 'My Bag',
         }}
       />
     </Navigator>
