@@ -24,10 +24,16 @@ O design do app segue o layout definido no Figma, buscando **UX/UI consistente, 
 
 | Tela | Preview |
 |------|---------|
-| Home | ![Home Screen](link-para-print-home) |
-| Produtos | ![Products Screen](link-para-print-produtos) |
-| Detalhes do Produto | ![Product Details](link-para-print-detalhes) |
-| Carrinho | ![Cart Screen](link-para-print-carrinho) |
+| Home | ![Home Screen](assets/home.png) |
+| Detalhes do Produto | ![Product Details Screen](assets/details.png) |
+| Carrinho | ![Cart Screen](assets/cart.png) |
+| List de Desejos | ![Wishlist Screen](assets/wishlist.png) |
+| Busca | ![Search Screen](assets/search.png) |
+| Conta do Usuário | ![Account Screen](assets/account.png) |
+| Notificações | ![Notification Screen](assets/notifications.png) |
+| Sign In | ![Sign in Screen](assets/login.png) |
+| Sign up | ![Sign up Screen](assets/signup.png) |
+
 
 > **Nota:** Substitua os links pelos prints exportados do Figma ou screenshots reais.
 
@@ -110,3 +116,7 @@ O projeto também serve como base para experimentação de:
 Este projeto é um laboratório pessoal de estudos, mas contribuições e sugestões de melhorias são bem-vindas!
 
 ---
+
+📄 Licença
+
+MIT License © 2025 Luan Cassiano
