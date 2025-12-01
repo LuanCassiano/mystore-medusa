@@ -68,3 +68,45 @@ O projeto utiliza tecnologias e bibliotecas modernas do ecossistema React Native
 git clone https://github.com/LuanCassiano/mystore-medusa.git
 cd mystore-medusa
 ```
+
+2. Instale as dependências:
+
+```bash
+yarn install 
+cd ios && pod install
+```
+
+3. Inicie o app (Expo Bare Workflow):
+
+```bash
+yarn expo run:ios
+# ou
+yarn expo run:android
+```
+
+4. Rodar testes:
+
+```bash
+yarn test
+```
+---
+
+📚 Estudos Futuros
+
+O projeto também serve como base para experimentação de:
+
+ - Armazenamento offline com WatermelonDB ou alternativas
+
+ - Técnicas avançadas de performance (lazy loading, memoization, code splitting)
+
+ - Otimização de builds e bundles com Re.Pack
+
+ - Estratégias de segurança e proteção de dados sensíveis
+
+---
+
+🤝 Contribuição
+
+Este projeto é um laboratório pessoal de estudos, mas contribuições e sugestões de melhorias são bem-vindas!
+
+---
