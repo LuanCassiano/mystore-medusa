@@ -32,7 +32,7 @@ exports[`CategoryItem Component snapshot 1`] = `
   style={
     {
       "alignItems": "center",
-      "backgroundColor": "#e3e3e3",
+      "backgroundColor": "#e6e6e6",
       "borderRadius": 8,
       "justifyContent": "center",
       "opacity": 1,
