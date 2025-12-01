@@ -1,9 +1,5 @@
-type CategoryData = {
-  id: string;
-  name: string;
-  description: string;
-}
+import { ICategory } from "../../../interfaces/ICategory";
 
 export type CategoryResponse = {
-  product_categories: CategoryData[]
+  product_categories: ICategory[];
 }
