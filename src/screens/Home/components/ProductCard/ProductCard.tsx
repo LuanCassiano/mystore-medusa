@@ -9,6 +9,7 @@ export default function ProductCard({ item }: ProductCardProps) {
         <Image
           source={{ uri: item.thumbnail }}
           style={styles.cardMedia}
+          testID="product-image"
         />
       </View>
 
