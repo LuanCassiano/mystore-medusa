@@ -35,7 +35,7 @@ O design do app segue o layout definido no Figma, buscando **UX/UI consistente, 
 | Sign up | ![Sign up Screen](assets/signup.png) |
 
 
-> **Nota:** Substitua os links pelos prints exportados do Figma ou screenshots reais.
+> **Nota:** O design do app é um UI Kit gratuito pego na comunidade do Figma ![UI Kit](https://www.figma.com/community/file/1362309395455453748/ecommerce-app-ui-kit-freebie).
 
 ---
 
